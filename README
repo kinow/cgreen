@@ -3,9 +3,9 @@ Cgreen
 You probably got this package from...
 http://cgreen.sourceforge.net/projects/cgreen/
 
-If there is no licence agreement with this package please download
+If there is no license agreement with this package please download
 a version from the location above. You must read and accept that
-licence to use this software. The file is titled simply LICENSE.
+license to use this software. The file is titled simply LICENSE.
 
 What is it? It's a framework for unit testing, written in C. A tool
 for C developers writing tests of their own code.
@@ -22,14 +22,14 @@ http://check.sourceforge.net/projects/check/
 
 The main difference from this tool and other xUnit tools, such as
 "Check",  is that test results are not stored. Instead they are
-streamed to the reporter psuedo-class, one that is easily
+streamed to the reporter pseudo-class, one that is easily
 overridden by the end user.
 
 The other main extra feature is the support for writing mock
 callbacks. This includes generating sequences for return values
 or parameter expectations.
 
-There is only one make file of signficance, and that's in the
+There is only one make file of significance, and that's in the
 root directory. Running make will build cgreen.a and cgreen.h
 on a Unix (gcc) setup. You can then include these as normal
 library files in your project. You may have to hack the makefile.
